@@ -24,7 +24,7 @@
         "id": "c726647e.02d258",
         "type": "slack-config",
         "z": "",
-        "name": "vaishnavi_bot"
+        "name": "news_bot"
     },
     {
         "id": "660002e7.0ec76c",
