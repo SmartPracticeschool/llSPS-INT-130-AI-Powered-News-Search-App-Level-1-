@@ -1,64 +1,26 @@
 [
     {
-        "id": "cbf26d27.2bd27",
+        "id": "e762d724.4efc68",
         "type": "tab",
         "label": "Trending topics",
         "disabled": false,
         "info": ""
     },
     {
-        "id": "49aadcd6.47cef4",
+        "id": "7fb5aed7.9999b",
         "type": "tab",
         "label": "Search the Discovery",
         "disabled": false,
         "info": ""
     },
     {
-        "id": "614e4ec8.1ce23",
-        "type": "ui_group",
-        "z": "cbf26d27.2bd27",
-        "name": "Search Results",
-        "tab": "19e3b0a1.888d9f",
-        "order": 2,
-        "disp": true,
-        "width": "16",
-        "collapse": false
-    },
-    {
-        "id": "9631e060.b6b64",
-        "type": "ui_group",
-        "z": "cbf26d27.2bd27",
-        "name": "Watson Discovery News ",
-        "tab": "19e3b0a1.888d9f",
-        "order": 1,
-        "disp": true,
-        "width": "6",
-        "collapse": false
-    },
-    {
-        "id": "24b20169.eca7ce",
-        "type": "ui_group",
+        "id": "c726647e.02d258",
+        "type": "slack-config",
         "z": "",
-        "name": "Search Results",
-        "tab": "",
-        "order": 2,
-        "disp": true,
-        "width": "16",
-        "collapse": false
+        "name": "vaishnavi_bot"
     },
     {
-        "id": "461f024a.a1bdac",
-        "type": "ui_group",
-        "z": "",
-        "name": "Watson Discovery News ",
-        "tab": "",
-        "order": 1,
-        "disp": true,
-        "width": "6",
-        "collapse": false
-    },
-    {
-        "id": "de8452b9.cb7b9",
+        "id": "660002e7.0ec76c",
         "type": "ui_base",
         "theme": {
             "name": "theme-custom",
@@ -156,27 +118,29 @@
         }
     },
     {
-        "id": "d843a79a.a35aa8",
-        "type": "ui_tab",
-        "z": "",
-        "name": "Watson Discovery News Search",
-        "icon": "dashboard",
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "eda12fd6.e0121",
+        "id": "3a8e4665.420b8a",
         "type": "ui_group",
         "z": "",
         "name": "Query",
-        "tab": "d843a79a.a35aa8",
+        "tab": "",
         "order": 1,
         "disp": false,
-        "width": 20,
+        "width": "22",
         "collapse": false
     },
     {
-        "id": "5b144354.fc944c",
+        "id": "128bbc1c.84d7f4",
+        "type": "ui_group",
+        "z": "",
+        "name": "Search Results: ",
+        "tab": "",
+        "order": 2,
+        "disp": false,
+        "width": "22",
+        "collapse": false
+    },
+    {
+        "id": "2b5fc7cd.7efbf8",
         "type": "ui_group",
         "z": "",
         "name": "Default",
@@ -187,7 +151,156 @@
         "collapse": false
     },
     {
-        "id": "6d079e21.866dd",
+        "id": "673afe95.1001c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "3a8e4665.420b8a",
+        "order": 2,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "60165030.8c077",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "3a8e4665.420b8a",
+        "order": 4,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "67f23ac2.553da4",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "128bbc1c.84d7f4",
+        "order": 1,
+        "width": 22,
+        "height": 1
+    },
+    {
+        "id": "1105f62e.b2385a",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "128bbc1c.84d7f4",
+        "order": 3,
+        "width": 22,
+        "height": 1
+    },
+    {
+        "id": "cb4aa57b.af5b28",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "128bbc1c.84d7f4",
+        "order": 5,
+        "width": 22,
+        "height": 1
+    },
+    {
+        "id": "32f2f7d2.48a028",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "128bbc1c.84d7f4",
+        "order": 7,
+        "width": 22,
+        "height": 1
+    },
+    {
+        "id": "51b4f550.c8015c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "128bbc1c.84d7f4",
+        "order": 9,
+        "width": 22,
+        "height": 1
+    },
+    {
+        "id": "c04c369f.161df8",
+        "type": "ui_group",
+        "z": "",
+        "name": "Trending News",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 24,
+        "collapse": false
+    },
+    {
+        "id": "5508a99c.6a2f88",
+        "type": "ui_group",
+        "z": "e762d724.4efc68",
+        "name": "Search Results",
+        "tab": "19e3b0a1.888d9f",
+        "order": 2,
+        "disp": true,
+        "width": "16",
+        "collapse": false
+    },
+    {
+        "id": "8ab3bd40.92aac",
+        "type": "ui_group",
+        "z": "e762d724.4efc68",
+        "name": "Watson Discovery News ",
+        "tab": "19e3b0a1.888d9f",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "a24bb6fc.3f4ff8",
+        "type": "ui_group",
+        "z": "",
+        "name": "Search Results",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "16",
+        "collapse": false
+    },
+    {
+        "id": "10dc7071.3802c",
+        "type": "ui_group",
+        "z": "",
+        "name": "Watson Discovery News ",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "6c964704.897078",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Watson Discovery News Search",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d3801e85.7b27",
+        "type": "ui_group",
+        "z": "",
+        "name": "Query",
+        "tab": "6c964704.897078",
+        "order": 1,
+        "disp": false,
+        "width": 20,
+        "collapse": false
+    },
+    {
+        "id": "1abddb4c.3cfd05",
+        "type": "ui_group",
+        "z": "",
+        "name": "Default",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "6b5e8145.5ae1a",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "",
@@ -196,7 +309,7 @@
         "height": 1
     },
     {
-        "id": "871a05cf.14a908",
+        "id": "3967f691.cfc0ea",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "",
@@ -205,7 +318,7 @@
         "height": 1
     },
     {
-        "id": "65b7851f.ef202c",
+        "id": "8be5b70c.863c08",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "",
@@ -214,7 +327,7 @@
         "height": 1
     },
     {
-        "id": "9c722cfe.23489",
+        "id": "4fcb233.bf82cdc",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "",
@@ -223,7 +336,7 @@
         "height": 1
     },
     {
-        "id": "18ca2fc3.072b9",
+        "id": "ed41704.8bd749",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "",
@@ -232,7 +345,7 @@
         "height": 1
     },
     {
-        "id": "bf7dfa77.cbf828",
+        "id": "87df811c.6662f",
         "type": "ui_tab",
         "z": "",
         "name": "Trending",
@@ -241,18 +354,18 @@
         "hidden": false
     },
     {
-        "id": "ea8d289a.8ad088",
+        "id": "d097908.f84de7",
         "type": "ui_group",
         "z": "",
         "name": "Trending News",
-        "tab": "bf7dfa77.cbf828",
+        "tab": "87df811c.6662f",
         "order": 1,
         "disp": true,
         "width": 20,
         "collapse": false
     },
     {
-        "id": "57a4ae86.962ae",
+        "id": "9dce862e.92a818",
         "type": "ui_group",
         "z": "",
         "name": "News seach",
@@ -263,7 +376,7 @@
         "collapse": false
     },
     {
-        "id": "cd8516e0.859268",
+        "id": "60186fe2.5f989",
         "type": "ui_group",
         "name": "Group 1",
         "tab": "",
@@ -272,223 +385,223 @@
         "width": 6
     },
     {
-        "id": "c76e2f8d.2df2a",
+        "id": "ee96b626.91ab78",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "eda12fd6.e0121",
+        "group": "d3801e85.7b27",
         "order": 2,
         "width": 8,
         "height": 1
     },
     {
-        "id": "28b65e07.021762",
+        "id": "71c1f14.1de731",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "eda12fd6.e0121",
+        "group": "d3801e85.7b27",
         "order": 4,
         "width": 8,
         "height": 1
     },
     {
-        "id": "e2bec01a.eace2",
+        "id": "98f002e3.5cce2",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "eda12fd6.e0121",
+        "group": "d3801e85.7b27",
         "order": 5,
         "width": 7,
         "height": 1
     },
     {
-        "id": "17994bbc.0bc7e4",
+        "id": "c410c4b8.351c58",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "eda12fd6.e0121",
+        "group": "d3801e85.7b27",
         "order": 8,
         "width": 1,
         "height": 1
     },
     {
-        "id": "5dfc2352.59a89c",
+        "id": "50d6fc19.1b5114",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "eda12fd6.e0121",
+        "group": "d3801e85.7b27",
         "order": 9,
         "width": 1,
         "height": 1
     },
     {
-        "id": "fd5188c.50d5678",
+        "id": "672099e8.66b5d8",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "eda12fd6.e0121",
+        "group": "d3801e85.7b27",
         "order": 10,
         "width": 1,
         "height": 1
     },
     {
-        "id": "981a4594.ce9468",
+        "id": "94595547.c9fd58",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "eda12fd6.e0121",
+        "group": "d3801e85.7b27",
         "order": 11,
         "width": 1,
         "height": 1
     },
     {
-        "id": "7e43ebd3.9bb624",
+        "id": "22e491a4.17649e",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "eda12fd6.e0121",
+        "group": "d3801e85.7b27",
         "order": 12,
         "width": 1,
         "height": 1
     },
     {
-        "id": "4b65975b.2d2eb8",
+        "id": "d7edeec2.c8f4f",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "eda12fd6.e0121",
+        "group": "d3801e85.7b27",
         "order": 13,
         "width": 7,
         "height": 1
     },
     {
-        "id": "c45061e3.27bf7",
+        "id": "185e19db.95d9f6",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "eda12fd6.e0121",
+        "group": "d3801e85.7b27",
         "order": 14,
         "width": 7,
         "height": 1
     },
     {
-        "id": "91b9743d.87d0d8",
+        "id": "76a98f72.bd95d",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "eda12fd6.e0121",
+        "group": "d3801e85.7b27",
         "order": 15,
         "width": 7,
         "height": 1
     },
     {
-        "id": "1322108e.833cef",
+        "id": "7d60e027.b122f",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "eda12fd6.e0121",
+        "group": "d3801e85.7b27",
         "order": 16,
         "width": 7,
         "height": 1
     },
     {
-        "id": "1a74f332.c5389d",
+        "id": "ae2f834c.1fa44",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "eda12fd6.e0121",
+        "group": "d3801e85.7b27",
         "order": 17,
         "width": 7,
         "height": 1
     },
     {
-        "id": "233c4455.b20a3c",
+        "id": "8c472abe.83f988",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "eda12fd6.e0121",
+        "group": "d3801e85.7b27",
         "order": 18,
         "width": 7,
         "height": 1
     },
     {
-        "id": "6c7224ab.08ac9c",
+        "id": "77276cab.288124",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "eda12fd6.e0121",
+        "group": "d3801e85.7b27",
         "order": 19,
         "width": 7,
         "height": 1
     },
     {
-        "id": "e4033f56.b6ece",
+        "id": "cd60cc6c.348ed",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "eda12fd6.e0121",
+        "group": "d3801e85.7b27",
         "order": 20,
         "width": 7,
         "height": 1
     },
     {
-        "id": "90533030.b48c6",
+        "id": "9e22b249.2c7c8",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "eda12fd6.e0121",
+        "group": "d3801e85.7b27",
         "order": 21,
         "width": 7,
         "height": 1
     },
     {
-        "id": "74b65e02.58207",
+        "id": "ce2f513b.0bdde",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "eda12fd6.e0121",
+        "group": "d3801e85.7b27",
         "order": 22,
         "width": 7,
         "height": 1
     },
     {
-        "id": "bd9644b3.291b88",
+        "id": "8ce3b9ba.500238",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "eda12fd6.e0121",
+        "group": "d3801e85.7b27",
         "order": 23,
         "width": 7,
         "height": 1
     },
     {
-        "id": "c9c08601.f82f88",
+        "id": "c228fb02.063c88",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "eda12fd6.e0121",
+        "group": "d3801e85.7b27",
         "order": 24,
         "width": 7,
         "height": 1
     },
     {
-        "id": "7487e202.2dad6c",
+        "id": "b15081ff.8677a",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "eda12fd6.e0121",
+        "group": "d3801e85.7b27",
         "order": 25,
         "width": 7,
         "height": 1
     },
     {
-        "id": "4ac2cbef.c11fd4",
+        "id": "604dde27.0aecb",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "eda12fd6.e0121",
+        "group": "d3801e85.7b27",
         "order": 26,
         "width": 7,
         "height": 1
     },
     {
-        "id": "ee2e0a32.b59008",
+        "id": "c368a625.27ba28",
         "type": "slack-config",
-        "z": "cbf26d27.2bd27",
+        "z": "e762d724.4efc68",
         "name": "vaishnavi_bot"
     },
     {
-        "id": "8b24642d.9df228",
+        "id": "193fd975.1ca1c7",
         "type": "slack-config",
-        "z": "cbf26d27.2bd27",
+        "z": "e762d724.4efc68",
         "name": "vaishnavi_bot"
     },
     {
-        "id": "cb0b833e.2beaa",
+        "id": "f7b17ab.4890888",
         "type": "slack-config",
-        "z": "cbf26d27.2bd27",
+        "z": "e762d724.4efc68",
         "name": "news_bot"
     },
     {
-        "id": "871bdf5c.51587",
+        "id": "e8ee2dfd.6ce1d",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "6caa184f.5e7e88",
@@ -497,9 +610,9 @@
         "height": 1
     },
     {
-        "id": "715da11d.b2069",
+        "id": "f33b0829.694808",
         "type": "watson-discovery-v1",
-        "z": "cbf26d27.2bd27",
+        "z": "e762d724.4efc68",
         "name": "news",
         "environmentname": "",
         "environmentId": "system",
@@ -523,18 +636,18 @@
         "y": 260,
         "wires": [
             [
-                "2d79a930.7ef706",
-                "88ee7e41.4b2ef",
-                "9ad2da71.f93148",
-                "50447885.a16698",
-                "2af6f70c.d0bd78"
+                "faaa2278.908c7",
+                "9bc4767.fa61388",
+                "bcaa21eb.483f7",
+                "bc548812.c913e8",
+                "409436d2.9f6148"
             ]
         ]
     },
     {
-        "id": "19e135a7.d602da",
+        "id": "143e2020.c1d21",
         "type": "comment",
-        "z": "cbf26d27.2bd27",
+        "z": "e762d724.4efc68",
         "name": "Trending Topics",
         "info": "",
         "x": 180,
@@ -542,11 +655,11 @@
         "wires": []
     },
     {
-        "id": "8272d3bd.2b785",
+        "id": "d2d1fa6b.d671b8",
         "type": "ui_button",
-        "z": "cbf26d27.2bd27",
+        "z": "e762d724.4efc68",
         "name": "",
-        "group": "ea8d289a.8ad088",
+        "group": "d097908.f84de7",
         "order": 2,
         "width": 20,
         "height": 1,
@@ -563,20 +676,20 @@
         "y": 180,
         "wires": [
             [
-                "715da11d.b2069"
+                "f33b0829.694808"
             ]
         ]
     },
     {
-        "id": "2d79a930.7ef706",
+        "id": "faaa2278.908c7",
         "type": "ui_template",
-        "z": "cbf26d27.2bd27",
-        "group": "ea8d289a.8ad088",
+        "z": "e762d724.4efc68",
+        "group": "d097908.f84de7",
         "name": "",
         "order": 2,
         "width": 5,
         "height": 14,
-        "format": "<style>\np { font-family: \"Century Gothic\", CenturyGothic, AppleGothic, sans-serif; font-size: 25px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 25px; }\na:link {\n    text-decoration: none;\n  color: blue;\n  font-size: 25px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n\na:visited {\n    text-decoration: none;\n  color: blue;\n  font-size: 25px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n</style>\n<div>\n    <br><br><center>\n    <a href=\"{{msg.search_results.aggregations[0].results[0].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[0].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[4].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[4].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[8].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[8].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[12].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[12].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[16].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[16].key}}</span></a><br><br><br>\n    </center>\n</div>",
+        "format": "<style>\np { font-family: \"Century Gothic\", CenturyGothic, AppleGothic, sans-serif; font-size: 25px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 25px; }\na:link {\n    text-decoration: none;\n  color: blue;\n  font-size: 25px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n\na:visited {\n    text-decoration: none;\n  color: blue;\n  font-size: 25px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n</style>\n<div>\n    <br><br><center>\n    <a href=\"{{msg.search_results.aggregations[0].results[0].aggregations[0].hits.hits[0].url}}\" target=\"_blank\"><span>{{msg.search_results.aggregations[0].results[0].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[4].aggregations[0].hits.hits[0].url}}\" target=\"_blank\"><span>{{msg.search_results.aggregations[0].results[4].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[8].aggregations[0].hits.hits[0].url}}\" target=\"_blank\"><span>{{msg.search_results.aggregations[0].results[8].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[12].aggregations[0].hits.hits[0].url}}\" target=\"_blank\"><span>{{msg.search_results.aggregations[0].results[12].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[16].aggregations[0].hits.hits[0].url}}\" target=\"_blank\"><span>{{msg.search_results.aggregations[0].results[16].key}}</span></a><br><br><br>\n    </center>\n</div>",
         "storeOutMessages": false,
         "fwdInMessages": true,
         "resendOnRefresh": false,
@@ -588,10 +701,10 @@
         ]
     },
     {
-        "id": "2af6f70c.d0bd78",
+        "id": "409436d2.9f6148",
         "type": "ui_template",
-        "z": "cbf26d27.2bd27",
-        "group": "ea8d289a.8ad088",
+        "z": "e762d724.4efc68",
+        "group": "d097908.f84de7",
         "name": "",
         "order": 1,
         "width": 20,
@@ -608,15 +721,15 @@
         ]
     },
     {
-        "id": "88ee7e41.4b2ef",
+        "id": "9bc4767.fa61388",
         "type": "ui_template",
-        "z": "cbf26d27.2bd27",
-        "group": "ea8d289a.8ad088",
+        "z": "e762d724.4efc68",
+        "group": "d097908.f84de7",
         "name": "",
         "order": 3,
         "width": 5,
         "height": 14,
-        "format": "<style>\np { font-family: \"Century Gothic\", CenturyGothic, AppleGothic, sans-serif; font-size: 25px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 25px; }\na:link {\n    text-decoration: none;\n  color: blue;\n  font-size: 25px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n\na:visited {\n    text-decoration: none;\n  color: blue;\n  font-size: 25px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n</style>\n<div>\n    <br><br><center>\n    <a href=\"{{msg.search_results.aggregations[0].results[1].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[1].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[5].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[5].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[9].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[9].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[13].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[13].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[17].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[17].key}}</span></a><br><br><br>\n    </center>\n</div>",
+        "format": "<style>\np { font-family: \"Century Gothic\", CenturyGothic, AppleGothic, sans-serif; font-size: 25px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 25px; }\na:link {\n    text-decoration: none;\n  color: blue;\n  font-size: 25px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n\na:visited {\n    text-decoration: none;\n  color: blue;\n  font-size: 25px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n</style>\n<div>\n    <br><br><center>\n    <a href=\"{{msg.search_results.aggregations[0].results[1].aggregations[0].hits.hits[0].url}}\" target=\"_blank\"><span>{{msg.search_results.aggregations[0].results[1].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[5].aggregations[0].hits.hits[0].url}}\" target=\"_blank\"><span>{{msg.search_results.aggregations[0].results[5].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[9].aggregations[0].hits.hits[0].url}}\" target=\"_blank\"><span>{{msg.search_results.aggregations[0].results[9].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[13].aggregations[0].hits.hits[0].url}}\" target=\"_blank\"><span>{{msg.search_results.aggregations[0].results[13].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[17].aggregations[0].hits.hits[0].url}}\" target=\"_blank\"><span>{{msg.search_results.aggregations[0].results[17].key}}</span></a><br><br><br>\n    </center>\n</div>",
         "storeOutMessages": false,
         "fwdInMessages": true,
         "resendOnRefresh": false,
@@ -628,15 +741,15 @@
         ]
     },
     {
-        "id": "9ad2da71.f93148",
+        "id": "bcaa21eb.483f7",
         "type": "ui_template",
-        "z": "cbf26d27.2bd27",
-        "group": "ea8d289a.8ad088",
+        "z": "e762d724.4efc68",
+        "group": "d097908.f84de7",
         "name": "",
         "order": 4,
         "width": 5,
         "height": 14,
-        "format": "<style>\np { font-family: \"Century Gothic\", CenturyGothic, AppleGothic, sans-serif; font-size: 25px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 25px; }\na:link {\n    text-decoration: none;\n  color: blue;\n  font-size: 25px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n\na:visited {\n    text-decoration: none;\n  color: blue;\n  font-size: 25px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n</style>\n<div>\n    <br><br><center>\n    <a href=\"{{msg.search_results.aggregations[0].results[2].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[2].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[6].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[6].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[10].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[10].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[14].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[14].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[18].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[18].key}}</span></a><br><br><br>\n    </center>\n</div>",
+        "format": "<style>\np { font-family: \"Century Gothic\", CenturyGothic, AppleGothic, sans-serif; font-size: 25px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 25px; }\na:link {\n    text-decoration: none;\n  color: blue;\n  font-size: 25px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n\na:visited {\n    text-decoration: none;\n  color: blue;\n  font-size: 25px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n</style>\n<div>\n    <br><br><center>\n    <a href=\"{{msg.search_results.aggregations[0].results[2].aggregations[0].hits.hits[0].url}}\" target=\"_blank\"><span>{{msg.search_results.aggregations[0].results[2].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[6].aggregations[0].hits.hits[0].url}}\" target=\"_blank\"><span>{{msg.search_results.aggregations[0].results[6].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[10].aggregations[0].hits.hits[0].url}}\" target=\"_blank\"><span>{{msg.search_results.aggregations[0].results[10].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[14].aggregations[0].hits.hits[0].url}}\" target=\"_blank\"><span>{{msg.search_results.aggregations[0].results[14].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[18].aggregations[0].hits.hits[0].url}}\" target=\"_blank\"><span>{{msg.search_results.aggregations[0].results[18].key}}</span></a><br><br><br>\n    </center>\n</div>",
         "storeOutMessages": false,
         "fwdInMessages": true,
         "resendOnRefresh": false,
@@ -648,15 +761,15 @@
         ]
     },
     {
-        "id": "50447885.a16698",
+        "id": "bc548812.c913e8",
         "type": "ui_template",
-        "z": "cbf26d27.2bd27",
-        "group": "ea8d289a.8ad088",
+        "z": "e762d724.4efc68",
+        "group": "d097908.f84de7",
         "name": "",
         "order": 5,
         "width": 5,
         "height": 14,
-        "format": "<style>\np { font-family: \"Century Gothic\", CenturyGothic, AppleGothic, sans-serif; font-size: 25px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 25px; }\na:link {\n    text-decoration: none;\n  color: blue;\n  font-size: 25px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n\na:visited {\n    text-decoration: none;\n  color: blue;\n  font-size: 25px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n</style>\n<div>\n    <br><br><center>\n    <a href=\"{{msg.search_results.aggregations[0].results[3].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[3].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[7].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[7].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[11].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[11].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[15].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[15].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[19].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[19].key}}</span></a><br><br><br>\n    </center>\n</div>",
+        "format": "<style>\np { font-family: \"Century Gothic\", CenturyGothic, AppleGothic, sans-serif; font-size: 25px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 25px; }\na:link {\n    text-decoration: none;\n  color: blue;\n  font-size: 25px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n\na:visited {\n    text-decoration: none;\n  color: blue;\n  font-size: 25px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n</style>\n<div>\n    <br><br><center>\n    <a href=\"{{msg.search_results.aggregations[0].results[3].aggregations[0].hits.hits[0].url}}\" target=\"_blank\"><span>{{msg.search_results.aggregations[0].results[3].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[7].aggregations[0].hits.hits[0].url}}\" target=\"_blank\"><span>{{msg.search_results.aggregations[0].results[7].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[11].aggregations[0].hits.hits[0].url}}\" target=\"_blank\"><span>{{msg.search_results.aggregations[0].results[11].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[15].aggregations[0].hits.hits[0].url}}\" target=\"_blank\"><span>{{msg.search_results.aggregations[0].results[15].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[19].aggregations[0].hits.hits[0].url}}\" target=\"_blank\"><span>{{msg.search_results.aggregations[0].results[19].key}}</span></a><br><br><br>\n    </center>\n</div>",
         "storeOutMessages": false,
         "fwdInMessages": true,
         "resendOnRefresh": false,
@@ -668,9 +781,9 @@
         ]
     },
     {
-        "id": "9e5e8b80.1201c8",
+        "id": "15add22b.91492e",
         "type": "function",
-        "z": "49aadcd6.47cef4",
+        "z": "7fb5aed7.9999b",
         "name": "",
         "func": "msg={\n    discoveryparams:\n    {\n        \"environment_id\":\"system\",\n        \"query\":msg.payload.input\n    }\n}\nreturn msg;",
         "outputs": 1,
@@ -679,14 +792,14 @@
         "y": 180,
         "wires": [
             [
-                "f0b9cb4b.e91938"
+                "eae0b4f.9f5d048"
             ]
         ]
     },
     {
-        "id": "f0b9cb4b.e91938",
+        "id": "eae0b4f.9f5d048",
         "type": "watson-discovery-v1",
-        "z": "49aadcd6.47cef4",
+        "z": "7fb5aed7.9999b",
         "name": "news",
         "environmentname": "",
         "environmentId": "system",
@@ -710,19 +823,19 @@
         "y": 180,
         "wires": [
             [
-                "5d706102.4bfe2",
-                "de3be06c.d920e",
-                "364e90bd.2677d"
+                "15549811.14cb38",
+                "bbd62eba.62281",
+                "8f01cae9.7ee4e8"
             ]
         ]
     },
     {
-        "id": "7145fc9f.2a7d44",
+        "id": "13ef9212.c49e4e",
         "type": "ui_form",
-        "z": "49aadcd6.47cef4",
+        "z": "7fb5aed7.9999b",
         "name": "",
         "label": "",
-        "group": "eda12fd6.e0121",
+        "group": "d3801e85.7b27",
         "order": 3,
         "width": 8,
         "height": 2,
@@ -746,21 +859,21 @@
         "y": 260,
         "wires": [
             [
-                "9e5e8b80.1201c8",
-                "bc36d3bf.ee09a"
+                "15add22b.91492e",
+                "8135850f.9be318"
             ]
         ]
     },
     {
-        "id": "5d706102.4bfe2",
+        "id": "15549811.14cb38",
         "type": "ui_template",
-        "z": "49aadcd6.47cef4",
-        "group": "eda12fd6.e0121",
+        "z": "7fb5aed7.9999b",
+        "group": "d3801e85.7b27",
         "name": "",
         "order": 6,
         "width": 13,
         "height": 20,
-        "format": "<style>\np { font-family: \"Century Gothic\", CenturyGothic, AppleGothic, sans-serif; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 20px; }\na:link {\n  color: blue;\n  font-size: 18px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n\na:visited {\n  color: blue;\n  font-size: 18px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n</style>\n<div>\n    <p>\n    <a href=\"{{msg.search_results.results[0].url}}\"><span style=\"font-weight: bold;\">{{msg.search_results.results[0].title}}</span></a>\n    <br><br>{{msg.search_results.results[0].text}}\n    <br><br><br>\n    <a href=\"{{msg.search_results.results[1].url}}\"><span style=\"font-weight: bold;\">{{msg.search_results.results[1].title}}</span></a>\n    <br><br>{{msg.search_results.results[1].text}}\n    <br><br><br>\n    <a href=\"{{msg.search_results.results[2].url}}\"><span style=\"font-weight: bold;\">{{msg.search_results.results[2].title}}</span></a>\n    <br><br>{{msg.search_results.results[2].text}}\n    <br><br><br>\n    <a href=\"{{msg.search_results.results[3].url}}\"><span style=\"font-weight: bold;\">{{msg.search_results.results[3].title}}</span></a>\n    <br><br>{{msg.search_results.results[3].text}}\n    <br><br><br>\n    <a href=\"{{msg.search_results.results[4].url}}\"><span style=\"font-weight: bold;\">{{msg.search_results.results[4].title}}</span></a>\n    <br><br>{{msg.search_results.results[4].text}}\n    <br><br><br>\n    </p>\n</div>",
+        "format": "<style>\np { font-family: \"Century Gothic\", CenturyGothic, AppleGothic, sans-serif; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 20px; }\na:link {\n  color: blue;\n  font-size: 18px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n\na:visited {\n  color: blue;\n  font-size: 18px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n</style>\n<div>\n    <p>\n    <a href=\"{{msg.search_results.results[0].url}}\" target=\"_blank\"><span style=\"font-weight: bold;\">{{msg.search_results.results[0].title}}</span></a>\n    <br><br>{{msg.search_results.results[0].text}}\n    <br><br><br>\n    <a href=\"{{msg.search_results.results[1].url}}\" target=\"_blank\"><span style=\"font-weight: bold;\">{{msg.search_results.results[1].title}}</span></a>\n    <br><br>{{msg.search_results.results[1].text}}\n    <br><br><br>\n    <a href=\"{{msg.search_results.results[2].url}}\" target=\"_blank\"><span style=\"font-weight: bold;\">{{msg.search_results.results[2].title}}</span></a>\n    <br><br>{{msg.search_results.results[2].text}}\n    <br><br><br>\n    <a href=\"{{msg.search_results.results[3].url}}\" target=\"_blank\"><span style=\"font-weight: bold;\">{{msg.search_results.results[3].title}}</span></a>\n    <br><br>{{msg.search_results.results[3].text}}\n    <br><br><br>\n    <a href=\"{{msg.search_results.results[4].url}}\" target=\"_blank\"><span style=\"font-weight: bold;\">{{msg.search_results.results[4].title}}</span></a>\n    <br><br>{{msg.search_results.results[4].text}}\n    <br><br><br>\n    </p>\n</div>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": false,
@@ -772,10 +885,10 @@
         ]
     },
     {
-        "id": "bc36d3bf.ee09a",
+        "id": "8135850f.9be318",
         "type": "ui_template",
-        "z": "49aadcd6.47cef4",
-        "group": "eda12fd6.e0121",
+        "z": "7fb5aed7.9999b",
+        "group": "d3801e85.7b27",
         "name": "",
         "order": 1,
         "width": 12,
@@ -792,9 +905,9 @@
         ]
     },
     {
-        "id": "3ecccbdb.50c6e4",
+        "id": "67ed27e7.b0f4a8",
         "type": "comment",
-        "z": "49aadcd6.47cef4",
+        "z": "7fb5aed7.9999b",
         "name": "Query Builder",
         "info": "",
         "x": 130,
@@ -802,9 +915,9 @@
         "wires": []
     },
     {
-        "id": "de3be06c.d920e",
+        "id": "bbd62eba.62281",
         "type": "function",
-        "z": "49aadcd6.47cef4",
+        "z": "7fb5aed7.9999b",
         "name": "Sentiment",
         "func": "var msg, i;\nvar val=[0,0,0];\nfor(i=0 ;i<50;i++)\n{\n    if(msg.search_results.results[i].enriched_text.sentiment.document.score < 0)\n        val[0]++;\n    if(msg.search_results.results[i].enriched_text.sentiment.document.score === 0)\n        val[1]++;\n    if(msg.search_results.results[i].enriched_text.sentiment.document.score > 0)\n        val[2]++;\n}\nmsg.payload=val;\nreturn msg;",
         "outputs": 1,
@@ -813,15 +926,15 @@
         "y": 274.3365726470947,
         "wires": [
             [
-                "69af5cb5.39b3d4",
-                "9ddf3a23.3e2628"
+                "af7e36e6.db24d8",
+                "93e91290.8fa53"
             ]
         ]
     },
     {
-        "id": "69af5cb5.39b3d4",
+        "id": "af7e36e6.db24d8",
         "type": "function",
-        "z": "49aadcd6.47cef4",
+        "z": "7fb5aed7.9999b",
         "name": "retrieval",
         "func": "msg.payload=\n[\n    {\n\"series\":[\"News\"],\n\"data\":[msg.payload[0],msg.payload[2],msg.payload[1]],\n\"labels\":[\"Negative\",\"Neutral\",\"Positive\"]\n    }\n]\nreturn msg;",
         "outputs": 1,
@@ -830,16 +943,16 @@
         "y": 273.33653831481934,
         "wires": [
             [
-                "3502383f.2efdc8"
+                "54f97281.4dc7cc"
             ]
         ]
     },
     {
-        "id": "3502383f.2efdc8",
+        "id": "54f97281.4dc7cc",
         "type": "ui_chart",
-        "z": "49aadcd6.47cef4",
+        "z": "7fb5aed7.9999b",
         "name": "",
-        "group": "eda12fd6.e0121",
+        "group": "d3801e85.7b27",
         "order": 7,
         "width": 6,
         "height": 5,
@@ -848,7 +961,7 @@
         "legend": "false",
         "xformat": "HH:mm:ss",
         "interpolate": "linear",
-        "nodata": "",
+        "nodata": "Sentiment Analysis",
         "dot": false,
         "ymin": "",
         "ymax": "",
@@ -878,9 +991,9 @@
         ]
     },
     {
-        "id": "364e90bd.2677d",
+        "id": "8f01cae9.7ee4e8",
         "type": "debug",
-        "z": "49aadcd6.47cef4",
+        "z": "7fb5aed7.9999b",
         "name": "",
         "active": true,
         "tosidebar": true,
@@ -894,9 +1007,9 @@
         "l": false
     },
     {
-        "id": "9ddf3a23.3e2628",
+        "id": "93e91290.8fa53",
         "type": "debug",
-        "z": "49aadcd6.47cef4",
+        "z": "7fb5aed7.9999b",
         "name": "",
         "active": true,
         "tosidebar": true,
