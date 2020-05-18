@@ -22,6 +22,12 @@ The AI Powered News Search App is a Node-RED application created on IBM Cloud th
 
 ## Sample Output
 
+**The Home page:**
+
+![demo](results/home_page.png)
+
+<br>
+
 **The trending page:**
 
 ![demo](results/trending_topics.png)
