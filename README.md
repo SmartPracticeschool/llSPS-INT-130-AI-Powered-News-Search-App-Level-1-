@@ -11,7 +11,7 @@ The AI Powered News Search App is a Node-RED application created on IBM Cloud th
 
 ## Slack Integration
 
-* **Slack Integration**: This also app can be integrated with the slack interface through a bot. Thus, the user can directly query the Watson Discovery News without using the Web application from the Slack app itself.
+* **Slack Integration**: This app can also be integrated with the slack interface through a bot. Thus, the user can directly query the Watson Discovery News without using the Web application from the Slack app itself.
 
 ## Flow
 
